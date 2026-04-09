@@ -1,0 +1,13 @@
+# tutorial
+
+https://modelcontextprotocol.io/docs/develop/build-server#python
+
+# sequence of startup events 
+
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+    uv init mcp-experiments
+    cd mcp-experiments
+    uv venv
+    source .venv/bin/activate
+    uv add "mcp[cli]" httpx
+    touch weather.py
