@@ -1,0 +1,49 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        ".",
+        "run",
+        "weather.py"
+      ]
+    },
+    "greeting": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        ".",
+        "run",
+        "greeting.py"
+      ]
+    },
+    "location": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        ".",
+        "run",
+        "location.py"
+      ]
+    },
+    "weather-danish": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        ".",
+        "run",
+        "weather-danish.py"
+      ]
+    },
+    "user-identity": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        ".",
+        "run",
+        "user-identity.py"
+      ]
+    }
+  }
+}
